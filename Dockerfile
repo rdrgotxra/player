@@ -21,6 +21,3 @@ CMD php artisan serve --host 0.0.0.0
 
 # lembra de conectar a porta ao iniciar o container
 EXPOSE 8000
-
-# docker build -t player .
-# docker run --rm --name=player -p 8000:8000 player
