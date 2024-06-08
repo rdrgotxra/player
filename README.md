@@ -4,8 +4,8 @@
 
 0. Você deve ter o Docker instalado no seu computador
 1. Copie os arquivos desse repositório em uma pasta
-2. Construa a imagem com "docker build -t player ."
-3. Rode o container com "docker run --rm -p 8000:8000 --name=player player"
+2. Construa a imagem com "docker build -t app ."
+3. Rode o container com "docker run --rm -p 8000:8000 --name=app app"
 5. Teste a conexão no link <localhost:8000>
 
 ## Iniciando um projeto Laravel do zero
