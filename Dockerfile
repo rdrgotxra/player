@@ -11,7 +11,7 @@ ARG root=/var/www/html
 WORKDIR ${root}
 
 # copia arquivos para o container
-COPY /app ${root}
+COPY /player ${root}
 
 # instala composer a partir de imagem no docker hub
 COPY --from=composer /usr/bin/composer /usr/bin/composer
